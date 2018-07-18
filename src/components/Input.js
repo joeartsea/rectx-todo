@@ -8,7 +8,6 @@ class Input extends Component {
   }
 
   render() {
-    const { addTodo } = this.props
     return (
       <Listen to={[TodoController]}>
         {todo => (

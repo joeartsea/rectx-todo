@@ -4,7 +4,6 @@ export default class TodoController extends Controller {
     state = { todos: [] }
 
     addTodo = event => {
-      console.log(event)
       if (event.which === 13 && event.target.value) {
         this.setState({
           todos: [

@@ -5,7 +5,6 @@ import TodoController from '../controllers/Todo'
 
 class Footer extends Component {
   render() {
-    const { clearCompleted, itemLeftCount } = this.props
     return (
       <Listen to={[TodoController]}>
         {todo => (

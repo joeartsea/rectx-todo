@@ -4,7 +4,6 @@ import TodoController from '../controllers/Todo'
 
 class List extends Component {
   render () {
-    const { getVisibleTodos, deleteTodo, toggleTodo, toggleAll } = this.props
     return (
       <Listen to={[TodoController]}>
         {todo => (

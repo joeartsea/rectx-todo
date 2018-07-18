@@ -8,7 +8,7 @@ class Link extends Component {
   }
 
   render() {
-    const { filter, filterTodos, todosFilter } = this.props
+    const { filter, todosFilter } = this.props
     return (
       <Listen to={[TodoController]}>
         {todo => (

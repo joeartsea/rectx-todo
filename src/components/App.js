@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { Listen } from 'rectx'
-import TodoController from '../controllers/Todo'
 import Input from './Input'
 import List from './List'
 import Footer from './Footer'
